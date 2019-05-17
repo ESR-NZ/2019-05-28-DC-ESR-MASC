@@ -309,3 +309,5 @@ please preview your site before committing, and make sure to run
   workshop,
   you will need access to the software used.  This will be provided for you on the day.
 </p>
+<div>
+ </div>
