@@ -44,7 +44,7 @@ swc_pages: "https://swcarpentry.github.io"
 swc_site: "https://software-carpentry.org"
 template_repo: "https://github.com/carpentries/styles"
 training_site: "https://carpentries.github.io/instructor-training"
-workshop_repo: "https://github.com/carpentries/workshop-template"
+workshop_repo: "https://github.com/Winterstorm-j/2019-05-28-DC-ESR-MASC"
 workshop_site: "http://Winterstorm-J.github.io/2019-05-28-DC-ESR-MASC"
 
 # Surveys.
