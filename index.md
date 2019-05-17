@@ -138,8 +138,7 @@ SPECIAL REQUIREMENTS
 Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+  <strong>Requirements:</strong> Participants do not need to bring anything. However if you prefer to use a USB keyboard rather than that attached to the laptop, please bring your own.
 </p>
 
 {% comment%}
@@ -308,9 +307,9 @@ please preview your site before committing, and make sure to run
   Library Carpentry
   {% endif %}
   workshop,
-  you will need access to the software described below.
-  In addition, you will need an up-to-date web browser.
+  you will need access to the software used.  This will be provided for you on the day.
 </p>
+<!--
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
@@ -318,12 +317,13 @@ please preview your site before committing, and make sure to run
 </p>
 
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
+  <!--
   <h3>The Bash Shell</h3>
   <p>
     Bash is a commonly-used shell that gives you the power to do simple
     tasks more quickly.
   </p>
-
+<!--
   <div>
     <ul class="nav nav-tabs nav-justified" role="tablist">
       <li role="presentation" class="active"><a data-os="windows" href="#shell-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
@@ -412,7 +412,7 @@ please preview your site before committing, and make sure to run
     </div>
   </div>
 </div> {% comment %} End of 'shell' section. {% endcomment %}
-
+<!--
 <div id="git"> {% comment %} Start of 'Git' section. GitHub browser compatability
   is given at https://help.github.com/articles/supported-browsers/{% endcomment %}
   <h3>Git</h3>
@@ -433,7 +433,7 @@ please preview your site before committing, and make sure to run
     <a href="https://help.github.com/articles/keeping-your-email-address-private/">instructions
       for keeping your email address private</a> provided at GitHub.
   </p>
-
+<!--
   <div>
     <ul class="nav nav-tabs nav-justified" role="tablist">
       <li role="presentation" class="active"><a data-os="windows" href="#git-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
@@ -475,10 +475,10 @@ please preview your site before committing, and make sure to run
     </div>
   </div>
 </div> {% comment %} End of 'Git' section. {% endcomment %}
-
+<!--
 <div id="editor"> {% comment %} Start of 'editor' section. {% endcomment %}
   <h3>Text Editor</h3>
-
+<!--
   <p>
     When you're writing code, it's nice to have a text editor that is
     optimized for writing code, with features like automatic
@@ -489,7 +489,7 @@ please preview your site before committing, and make sure to run
     (colon, lower-case 'q', exclamation mark), then hitting <kbd>Return</kbd> to 
     return to the shell.
   </p>
-
+<!--
   <div>
     <ul class="nav nav-tabs nav-justified" role="tablist">
       <li role="presentation" class="active"><a data-os="windows" href="#editor-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
@@ -540,13 +540,13 @@ please preview your site before committing, and make sure to run
     </div>
   </div>
 </div> {% comment %} End of 'editor' section. {% endcomment %}
-
+<!--
 <div id="python"> {% comment %} Start of 'Python' section. Remove the third paragraph if
   the workshop will teach Python using something other than
   the Jupyter notebook.
   Details at https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility {% endcomment %}
   <h3>Python</h3>
-
+<!--
   <p>
     <a href="https://python.org">Python</a> is a popular language for
     research computing, and great for general-purpose programming as
@@ -555,13 +555,13 @@ please preview your site before committing, and make sure to run
     <a href="https://www.anaconda.com/distribution/">Anaconda</a>,
     an all-in-one installer.
   </p>
-
+<!--
   <p>
     Regardless of how you choose to install it,
     <strong>please make sure you install Python version 3.x</strong>
     (e.g., 3.6 is fine).
   </p>
-
+<!--
   <p>
     We will teach Python using the <a href="https://jupyter.org/">Jupyter notebook</a>,
     a programming environment that runs in a web browser. For this to work you will need a reasonably
@@ -571,7 +571,7 @@ please preview your site before committing, and make sure to run
     (some older browsers, including Internet Explorer version 9
     and below, are not).
   </p>
-
+<!--
   <div>
     <ul class="nav nav-tabs nav-justified" role="tablist">
       <li role="presentation" class="active"><a data-os="windows" href="#python-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
@@ -629,7 +629,8 @@ please preview your site before committing, and make sure to run
         </ol>
       </article>
     </div>
-  </div>
+<!--
+</div>
   {% comment %}
   <p>
     Once you are done installing the software listed above,
@@ -638,17 +639,17 @@ please preview your site before committing, and make sure to run
   </p>
   {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
-
+<!--
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
-
+<!--
   <p>
     <a href="https://www.r-project.org">R</a> is a programming language
     that is especially powerful for data exploration, visualization, and
     statistical analysis. To interact with R, we use
     <a href="https://www.rstudio.com/">RStudio</a>.
   </p>
-
+<!--
   <div>
     <ul class="nav nav-tabs nav-justified" role="tablist">
       <li role="presentation" class="active"><a data-os="windows" href="#rstats-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
@@ -692,18 +693,19 @@ please preview your site before committing, and make sure to run
         </p>
       </article>
     </div>
-  </div>
+ <!--
+ </div>
 </div> {% comment %} End of 'R' section. {% endcomment %}
-
+<!--
 <div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
   <h3>SQLite</h3>
-
+<!--
   <p>
     SQL is a specialized programming language used with databases.  We
     use a simple database manager called
     <a href="https://www.sqlite.org/">SQLite</a> in our lessons.
   </p>
-
+<!--
   <div>
     <ul class="nav nav-tabs nav-justified" role="tablist">
       <li role="presentation" class="active"><a data-os="windows" href="#sql-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
@@ -730,7 +732,7 @@ please preview your site before committing, and make sure to run
           Visit <a href="https://sqlitebrowser.org/dl/">SqliteBrowser</a> and download and install it. Version 3.11.0 or greater.
         </p>
       </article>
-      
+    <!--
     </div>
     {%else%}
     <div class="tab-content">
@@ -769,13 +771,14 @@ please preview your site before committing, and make sure to run
       </article>
     </div>
       {%endif%}
-  </div>
-
+ <!--
+ </div>
+<!--
   <p><strong>If you installed Anaconda, it also has a copy of SQLite
       <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
       Instructors will provide a workaround for it if needed.</strong></p>
 </div> {% comment %} End of 'SQLite' section. {% endcomment %}
-
+<!--
 <div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
   <h3>OpenRefine</h3>
   <p>
@@ -783,7 +786,7 @@ please preview your site before committing, and make sure to run
     web browser. <em>Note:</em> this is a Java program that runs on your machine (not in the cloud).
     It runs inside a web browser, but no web connection is needed.
   </p>
-
+<!--
   <div>
     <ul class="nav nav-tabs nav-justified" role="tablist">
       <li role="presentation" class="active"><a data-os="windows" href="#openrefine-windows" aria-controls="Windows" role="tab" data-toggle="tab">Windows</a></li>
@@ -826,12 +829,15 @@ please preview your site before committing, and make sure to run
       </article>
     </div>
   </div>
-</div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
+</div> 
+<!--
+{% comment %} End of 'OpenRefine' section. {% endcomment %}
 
 {% comment %}
 <div id="vm">
-  <h3>Virtual Machine</h3>
-
+<!--
+<h3>Virtual Machine</h3>
+<!--
   <p>
     Some instructors prefer to have learners use a virtual machine (VM)
     rather than install software on their own computers.  If your
